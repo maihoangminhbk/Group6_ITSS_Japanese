@@ -3,7 +3,7 @@ import StripeCheckout from 'react-stripe-checkout';
 
 const StripeCheckoutButton =({price}) =>{
 const priceforStripe = price *100;
-const stripepublicKey='pk_test_51HxT8HGrpJKOq6Kus8cKbLqaLkdeY2LbU7HAr0KlNC0Y0iDkyhiqLNQhztRHNKnufAcTcftAG7YdsGhJ6iXGNmyI00fRyrypTV';
+const stripepublicKey='pk_test_51L0hj0BJFSZPbA3U9c3VDvpmk6n5KVspFy0aXxZ3x9DPbVbht6qk1Gxz3RWg3xByMVJYkLTHcrmSZYFbMzRlxFC600rQcHQCls';
 
 const onToken =token =>{
     alert('payment successful')
@@ -20,6 +20,7 @@ return(
     panelLabel='Pay Now'
     token={onToken}
     stripeKey={stripepublicKey}
+    
      />
 );
 };

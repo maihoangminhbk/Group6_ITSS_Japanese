@@ -3,14 +3,13 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-  apiKey: "AIzaSyAaACaEGJ3hFzjh4RzCjkOBkKF03E_AOd4",
-  authDomain: "dokan-90413.firebaseapp.com",
-  databaseURL: "https://dokan-90413.firebaseio.com",
-  projectId: "dokan-90413",
-  storageBucket: "dokan-90413.appspot.com",
-  messagingSenderId: "920146727461",
-  appId: "1:920146727461:web:32ec7ded074e663d87a5cc",
-  measurementId: "G-CH4GVXYQ4S"
+  apiKey: "AIzaSyD3EinImSFiuJi-vM5tUeaSUY0wI326k0M",
+  authDomain: "shopping-cb791.firebaseapp.com",
+  projectId: "shopping-cb791",
+  storageBucket: "shopping-cb791.appspot.com",
+  messagingSenderId: "222729521494",
+  appId: "1:222729521494:web:009ba69a4ad80f58a9aef7",
+  measurementId: "G-DKZTW1PSFX"
 };
 
 firebase.initializeApp(config);
